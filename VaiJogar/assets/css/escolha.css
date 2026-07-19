@@ -1,0 +1,130 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #12001f;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Container geral */
+.cards-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Cartão base */
+.card {
+  flex: 1;
+  position: relative;
+  cursor: pointer;
+  transition: flex 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Cresce no hover */
+.card:hover {
+  flex: 1.3;
+}
+
+/* Conteúdo */
+.card .content {
+  text-align: center;
+  z-index: 2;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .content {
+  transform: scale(1.1);
+}
+
+.icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1.2rem;
+  opacity: 0.85;
+}
+
+/* Fundos criativos */
+.futebol {
+  background: linear-gradient(160deg, #2b0a3d, #4a1a6a);
+}
+
+.voleibol {
+  background: linear-gradient(160deg, #1f1238, #3a235e);
+}
+
+.basket {
+  background: linear-gradient(160deg, #2a0f45, #5a1f7a);
+}
+
+/* Overlay subtil */
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.08), transparent);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.card:hover::after {
+  opacity: 1;
+}
+
+/* Bloqueados */
+.bloqueado {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.bloqueado:hover {
+  flex: 1;
+}
+
+.bloqueado:hover .content {
+  transform: none;
+}
+
+
+.sport-card {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
+/* Mobile */
+@media (max-width: 900px) {
+  .cards-container {
+    flex-direction: column;
+  }
+
+  .card {
+    height: 33.33vh;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+}

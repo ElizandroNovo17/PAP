@@ -1,0 +1,230 @@
+{
+  "AF Lisboa": [
+    { "nome": "Marítimo", "logo": "https://img.zerozero.pt/clubs/logos/76f0fdd0-78e4-4f7a-a28c-cfec6a9797e9_120.png" },
+    { "nome": "Sintrense", "logo": "https://img.zerozero.pt/clubs/logos/sintrense.png" },
+    { "nome": "Casa Pia AC", "logo": "https://img.zerozero.pt/clubs/logos/casa-pia.png" },
+    { "nome": "Vilar do Conde", "logo": "https://img.zerozero.pt/clubs/logos/vilar-conde.png" },
+    { "nome": "Camacha", "logo": "https://img.zerozero.pt/clubs/logos/camacha.png" },
+    { "nome": "Benfica Castelo Branco", "logo": "https://img.zerozero.pt/clubs/logos/benfica-cb.png" },
+    { "nome": "Alcochetense", "logo": "https://img.zerozero.pt/clubs/logos/alcochetense.png" },
+    { "nome": "Corroios", "logo": "https://img.zerozero.pt/clubs/logos/corroios.png" },
+    { "nome": "Loures", "logo": "https://img.zerozero.pt/clubs/logos/loures.png" },
+    { "nome": "Sacavém", "logo": "https://img.zerozero.pt/clubs/logos/sacavem.png" },
+    { "nome": "Charneca de Caparica", "logo": "https://img.zerozero.pt/clubs/logos/charneca.png" },
+    { "nome": "Casal de Cambra", "logo": "https://img.zerozero.pt/clubs/logos/casal-cambra.png" }
+  ],
+  "AF Porto": [
+    { "nome": "Bragantino", "logo": "https://img.zerozero.pt/clubs/logos/bragantino.png" },
+    { "nome": "Lousada", "logo": "https://img.zerozero.pt/clubs/logos/lousada.png" },
+    { "nome": "Pedras Rubras", "logo": "https://img.zerozero.pt/clubs/logos/pedras-rubras.png" },
+    { "nome": "Vilarreal Porto", "logo": "https://img.zerozero.pt/clubs/logos/vilarreal-porto.png" },
+    { "nome": "Argivai", "logo": "https://img.zerozero.pt/clubs/logos/argivai.png" },
+    { "nome": "Moreira", "logo": "https://img.zerozero.pt/clubs/logos/moreira.png" },
+    { "nome": "Oliveirense", "logo": "https://img.zerozero.pt/clubs/logos/oliveirense.png" },
+    { "nome": "Perosinho", "logo": "https://img.zerozero.pt/clubs/logos/perosinho.png" },
+    { "nome": "Arouca", "logo": "https://img.zerozero.pt/clubs/logos/arouca.png" },
+    { "nome": "Arrifanense", "logo": "https://img.zerozero.pt/clubs/logos/arrifanense.png" }
+  ],
+  "AF Braga": [
+    { "nome": "Braga", "logo": "https://img.zerozero.pt/clubs/logos/braga.png" },
+    { "nome": "Famalicão", "logo": "https://img.zerozero.pt/clubs/logos/famalicao.png" },
+    { "nome": "Moreirense", "logo": "https://img.zerozero.pt/clubs/logos/moreirense.png" },
+    { "nome": "Barcelos", "logo": "https://img.zerozero.pt/clubs/logos/barcelos.png" },
+    { "nome": "Guarda", "logo": "https://img.zerozero.pt/clubs/logos/guarda.png" },
+    { "nome": "Fontinhas", "logo": "https://img.zerozero.pt/clubs/logos/fontinhas.png" },
+    { "nome": "Vascos Gama Guarda", "logo": "https://img.zerozero.pt/clubs/logos/vascos-gama.png" },
+    { "nome": "Brancanes", "logo": "https://img.zerozero.pt/clubs/logos/brancanes.png" },
+    { "nome": "Tamel", "logo": "https://img.zerozero.pt/clubs/logos/tamel.png" },
+    { "nome": "Fafe", "logo": "https://img.zerozero.pt/clubs/logos/fafe.png" },
+    { "nome": "Espaço", "logo": "https://img.zerozero.pt/clubs/logos/espaco.png" }
+  ],
+  "AF Aveiro": [
+    { "nome": "Ílhavo", "logo": "https://img.zerozero.pt/clubs/logos/ilhavo.png" },
+    { "nome": "Ovarense", "logo": "https://img.zerozero.pt/clubs/logos/ovarense.png" },
+    { "nome": "Avanca", "logo": "https://img.zerozero.pt/clubs/logos/avanca.png" },
+    { "nome": "Espinho", "logo": "https://img.zerozero.pt/clubs/logos/espinho.png" },
+    { "nome": "Vagos", "logo": "https://img.zerozero.pt/clubs/logos/vagos.png" },
+    { "nome": "Sãojoanense", "logo": "https://img.zerozero.pt/clubs/logos/sanjoanense.png" },
+    { "nome": "Santa Maria Feira", "logo": "https://img.zerozero.pt/clubs/logos/smf.png" },
+    { "nome": "Valdaves", "logo": "https://img.zerozero.pt/clubs/logos/valdaves.png" },
+    { "nome": "Arcozelum", "logo": "https://img.zerozero.pt/clubs/logos/arcozelum.png" }
+  ],
+  "AF Coimbra": [
+    { "nome": "Académica OAF", "logo": "https://img.zerozero.pt/clubs/logos/academica.png" },
+    { "nome": "Covilhã", "logo": "https://img.zerozero.pt/clubs/logos/covilha.png" },
+    { "nome": "União da Madeira", "logo": "https://img.zerozero.pt/clubs/logos/uniao-madeira.png" },
+    { "nome": "Figueira da Foz", "logo": "https://img.zerozero.pt/clubs/logos/figueira-foz.png" },
+    { "nome": "Pombal", "logo": "https://img.zerozero.pt/clubs/logos/pombal.png" },
+    { "nome": "Montemor", "logo": "https://img.zerozero.pt/clubs/logos/montemor.png" },
+    { "nome": "Tábua", "logo": "https://img.zerozero.pt/clubs/logos/tabua.png" },
+    { "nome": "Lourosa", "logo": "https://img.zerozero.pt/clubs/logos/lourosa.png" },
+    { "nome": "Penela", "logo": "https://img.zerozero.pt/clubs/logos/penela.png" }
+  ],
+  "AF Guarda": [
+    { "nome": "Guarda", "logo": "https://img.zerozero.pt/clubs/logos/guarda.png" },
+    { "nome": "Belmonte", "logo": "https://img.zerozero.pt/clubs/logos/belmonte.png" },
+    { "nome": "Manteigas", "logo": "https://img.zerozero.pt/clubs/logos/manteigas.png" },
+    { "nome": "Sabugal", "logo": "https://img.zerozero.pt/clubs/logos/sabugal.png" },
+    { "nome": "Pinhel", "logo": "https://img.zerozero.pt/clubs/logos/pinhel.png" },
+    { "nome": "Figueira de Castelo Rodrigo", "logo": "https://img.zerozero.pt/clubs/logos/fcr.png" },
+    { "nome": "Villanova", "logo": "https://img.zerozero.pt/clubs/logos/villanova.png" },
+    { "nome": "Trancoso", "logo": "https://img.zerozero.pt/clubs/logos/trancoso.png" }
+  ],
+  "AF Castelo Branco": [
+    { "nome": "Castelo Branco", "logo": "https://img.zerozero.pt/clubs/logos/castelo-branco.png" },
+    { "nome": "Covilhã", "logo": "https://img.zerozero.pt/clubs/logos/covilha.png" },
+    { "nome": "Idanha-a-Nova", "logo": "https://img.zerozero.pt/clubs/logos/idanha.png" },
+    { "nome": "Fundão", "logo": "https://img.zerozero.pt/clubs/logos/fundao.png" },
+    { "nome": "Penamacor", "logo": "https://img.zerozero.pt/clubs/logos/penamacor.png" },
+    { "nome": "Sertã", "logo": "https://img.zerozero.pt/clubs/logos/serta.png" },
+    { "nome": "Oleiros", "logo": "https://img.zerozero.pt/clubs/logos/oleiros.png" }
+  ],
+  "AF Bragança": [
+    { "nome": "Bragantino", "logo": "https://img.zerozero.pt/clubs/logos/bragantino.png" },
+    { "nome": "Torre de Moncorvo", "logo": "https://img.zerozero.pt/clubs/logos/torre-moncorvo.png" },
+    { "nome": "Mogadouro", "logo": "https://img.zerozero.pt/clubs/logos/mogadouro.png" },
+    { "nome": "Carrazeda de Ansiães", "logo": "https://img.zerozero.pt/clubs/logos/carrazeda.png" },
+    { "nome": "Alfandega", "logo": "https://img.zerozero.pt/clubs/logos/alfandega.png" },
+    { "nome": "Vinhais", "logo": "https://img.zerozero.pt/clubs/logos/vinhais.png" },
+    { "nome": "Mirandela", "logo": "https://img.zerozero.pt/clubs/logos/mirandela.png" },
+    { "nome": "Sendim", "logo": "https://img.zerozero.pt/clubs/logos/sendim.png" }
+  ],
+  "AF Viseu": [
+    { "nome": "Viseu", "logo": "https://img.zerozero.pt/clubs/logos/viseu.png" },
+    { "nome": "Vilanovense", "logo": "https://img.zerozero.pt/clubs/logos/vilanovense.png" },
+    { "nome": "Mangualde", "logo": "https://img.zerozero.pt/clubs/logos/mangualde.png" },
+    { "nome": "Nelas", "logo": "https://img.zerozero.pt/clubs/logos/nelas.png" },
+    { "nome": "Penalva do Castelo", "logo": "https://img.zerozero.pt/clubs/logos/penalva.png" },
+    { "nome": "Vouzela", "logo": "https://img.zerozero.pt/clubs/logos/vouzela.png" },
+    { "nome": "Sátão", "logo": "https://img.zerozero.pt/clubs/logos/satao.png" },
+    { "nome": "Carregal do Sal", "logo": "https://img.zerozero.pt/clubs/logos/carregal-sal.png" },
+    { "nome": "Lamego", "logo": "https://img.zerozero.pt/clubs/logos/lamego.png" }
+  ],
+  "AF Vila Real": [
+    { "nome": "Vila Real", "logo": "https://img.zerozero.pt/clubs/logos/vila-real.png" },
+    { "nome": "Chaves", "logo": "https://img.zerozero.pt/clubs/logos/chaves.png" },
+    { "nome": "Ribeira de Pena", "logo": "https://img.zerozero.pt/clubs/logos/ribeira-pena.png" },
+    { "nome": "Alijó", "logo": "https://img.zerozero.pt/clubs/logos/alijo.png" },
+    { "nome": "Sabrosa", "logo": "https://img.zerozero.pt/clubs/logos/sabrosa.png" },
+    { "nome": "Santa Marta de Penaguião", "logo": "https://img.zerozero.pt/clubs/logos/smp.png" },
+    { "nome": "São Pedro da Afurada", "logo": "https://img.zerozero.pt/clubs/logos/spda.png" },
+    { "nome": "Murça", "logo": "https://img.zerozero.pt/clubs/logos/murca.png" }
+  ],
+  "AF Viana do Castelo": [
+    { "nome": "Viana do Castelo", "logo": "https://img.zerozero.pt/clubs/logos/viana-castelo.png" },
+    { "nome": "Arcos", "logo": "https://img.zerozero.pt/clubs/logos/arcos.png" },
+    { "nome": "Barcelinhos", "logo": "https://img.zerozero.pt/clubs/logos/barcelinhos.png" },
+    { "nome": "Ponte de Lima", "logo": "https://img.zerozero.pt/clubs/logos/ponte-lima.png" },
+    { "nome": "Maia", "logo": "https://img.zerozero.pt/clubs/logos/maia.png" },
+    { "nome": "Bertioga", "logo": "https://img.zerozero.pt/clubs/logos/bertioga.png" },
+    { "nome": "Praia Norte", "logo": "https://img.zerozero.pt/clubs/logos/praia-norte.png" },
+    { "nome": "Vilar Praia", "logo": "https://img.zerozero.pt/clubs/logos/vilar-praia.png" },
+    { "nome": "Caminha", "logo": "https://img.zerozero.pt/clubs/logos/caminha.png" },
+    { "nome": "Duas Igrejas", "logo": "https://img.zerozero.pt/clubs/logos/duas-igrejas.png" }
+  ],
+  "AF Santarém": [
+    { "nome": "União Santarém", "logo": "https://img.zerozero.pt/clubs/logos/uniao-santarem.png" },
+    { "nome": "Golegã", "logo": "https://img.zerozero.pt/clubs/logos/golega.png" },
+    { "nome": "Alcanena", "logo": "https://img.zerozero.pt/clubs/logos/alcanena.png" },
+    { "nome": "Nazaré", "logo": "https://img.zerozero.pt/clubs/logos/nazare.png" },
+    { "nome": "Rio Maior", "logo": "https://img.zerozero.pt/clubs/logos/rio-maior.png" },
+    { "nome": "Cartaxo", "logo": "https://img.zerozero.pt/clubs/logos/cartaxo.png" },
+    { "nome": "Salvaterra", "logo": "https://img.zerozero.pt/clubs/logos/salvaterra.png" },
+    { "nome": "Almeirim", "logo": "https://img.zerozero.pt/clubs/logos/almeirim.png" },
+    { "nome": "Tejo", "logo": "https://img.zerozero.pt/clubs/logos/tejo.png" }
+  ],
+  "AF Leiria": [
+    { "nome": "Leiria", "logo": "https://img.zerozero.pt/clubs/logos/leiria.png" },
+    { "nome": "Marinha Grande", "logo": "https://img.zerozero.pt/clubs/logos/marinha-grande.png" },
+    { "nome": "Pombal", "logo": "https://img.zerozero.pt/clubs/logos/pombal.png" },
+    { "nome": "Ourém", "logo": "https://img.zerozero.pt/clubs/logos/ourem.png" },
+    { "nome": "Batalha", "logo": "https://img.zerozero.pt/clubs/logos/batalha.png" },
+    { "nome": "Alcobaça", "logo": "https://img.zerozero.pt/clubs/logos/alcobaca.png" },
+    { "nome": "Caldas da Rainha", "logo": "https://img.zerozero.pt/clubs/logos/caldas-rainha.png" },
+    { "nome": "Nazaré Atlético", "logo": "https://img.zerozero.pt/clubs/logos/nazare-atletico.png" },
+    { "nome": "Peniche", "logo": "https://img.zerozero.pt/clubs/logos/peniche.png" },
+    { "nome": "Óbidos", "logo": "https://img.zerozero.pt/clubs/logos/obidos.png" }
+  ],
+  "AF Setúbal": [
+    { "nome": "Setúbal", "logo": "https://img.zerozero.pt/clubs/logos/setubal.png" },
+    { "nome": "Barreirense", "logo": "https://img.zerozero.pt/clubs/logos/barreirense.png" },
+    { "nome": "Moita", "logo": "https://img.zerozero.pt/clubs/logos/moita.png" },
+    { "nome": "Alcochete", "logo": "https://img.zerozero.pt/clubs/logos/alcochete.png" },
+    { "nome": "Sesimbra", "logo": "https://img.zerozero.pt/clubs/logos/sesimbra.png" },
+    { "nome": "Almada", "logo": "https://img.zerozero.pt/clubs/logos/almada.png" },
+    { "nome": "Montijo", "logo": "https://img.zerozero.pt/clubs/logos/montijo.png" },
+    { "nome": "Roque Fernandes", "logo": "https://img.zerozero.pt/clubs/logos/roque-fernandes.png" },
+    { "nome": "Seixal", "logo": "https://img.zerozero.pt/clubs/logos/seixal.png" },
+    { "nome": "Caparica", "logo": "https://img.zerozero.pt/clubs/logos/caparica.png" }
+  ],
+  "AF Évora": [
+    { "nome": "Évora", "logo": "https://img.zerozero.pt/clubs/logos/evora.png" },
+    { "nome": "Arraiolos", "logo": "https://img.zerozero.pt/clubs/logos/arraiolos.png" },
+    { "nome": "Montemor-o-Velho", "logo": "https://img.zerozero.pt/clubs/logos/montemor-velho.png" },
+    { "nome": "Vendas Novas", "logo": "https://img.zerozero.pt/clubs/logos/vendas-novas.png" },
+    { "nome": "Estremoz", "logo": "https://img.zerozero.pt/clubs/logos/estremoz.png" },
+    { "nome": "Borba", "logo": "https://img.zerozero.pt/clubs/logos/borba.png" },
+    { "nome": "Mourão", "logo": "https://img.zerozero.pt/clubs/logos/mourao.png" }
+  ],
+  "AF Beja": [
+    { "nome": "Beja", "logo": "https://img.zerozero.pt/clubs/logos/beja.png" },
+    { "nome": "Serpa", "logo": "https://img.zerozero.pt/clubs/logos/serpa.png" },
+    { "nome": "Moura", "logo": "https://img.zerozero.pt/clubs/logos/moura.png" },
+    { "nome": "Castro Verde", "logo": "https://img.zerozero.pt/clubs/logos/castro-verde.png" },
+    { "nome": "Vidigueira", "logo": "https://img.zerozero.pt/clubs/logos/vidigueira.png" },
+    { "nome": "Alvito", "logo": "https://img.zerozero.pt/clubs/logos/alvito.png" },
+    { "nome": "Ferreira do Alentejo", "logo": "https://img.zerozero.pt/clubs/logos/ferreira-alentejo.png" }
+  ],
+  "AF Portalegre": [
+    { "nome": "Portalegre", "logo": "https://img.zerozero.pt/clubs/logos/portalegre.png" },
+    { "nome": "Marvão", "logo": "https://img.zerozero.pt/clubs/logos/marvao.png" },
+    { "nome": "Nisa", "logo": "https://img.zerozero.pt/clubs/logos/nisa.png" },
+    { "nome": "Elvas", "logo": "https://img.zerozero.pt/clubs/logos/elvas.png" },
+    { "nome": "Crato", "logo": "https://img.zerozero.pt/clubs/logos/crato.png" },
+    { "nome": "Carreiras", "logo": "https://img.zerozero.pt/clubs/logos/carreiras.png" },
+    { "nome": "Fronteira", "logo": "https://img.zerozero.pt/clubs/logos/fronteira.png" }
+  ],
+  "AF Algarve": [
+    { "nome": "Olhanense", "logo": "https://img.zerozero.pt/clubs/logos/olhanense.png" },
+    { "nome": "Faro", "logo": "https://img.zerozero.pt/clubs/logos/faro.png" },
+    { "nome": "Loulé", "logo": "https://img.zerozero.pt/clubs/logos/loule.png" },
+    { "nome": "Lagos", "logo": "https://img.zerozero.pt/clubs/logos/lagos.png" },
+    { "nome": "Albufeira", "logo": "https://img.zerozero.pt/clubs/logos/albufeira.png" },
+    { "nome": "São Brás", "logo": "https://img.zerozero.pt/clubs/logos/sao-bras.png" },
+    { "nome": "Silves", "logo": "https://img.zerozero.pt/clubs/logos/silves.png" },
+    { "nome": "Quarteira", "logo": "https://img.zerozero.pt/clubs/logos/quarteira.png" },
+    { "nome": "Tavira", "logo": "https://img.zerozero.pt/clubs/logos/tavira.png" },
+    { "nome": "Porches", "logo": "https://img.zerozero.pt/clubs/logos/porches.png" },
+    { "nome": "Conceição", "logo": "https://img.zerozero.pt/clubs/logos/conceicao.png" }
+  ],
+  "AF Madeira": [
+    { "nome": "Marítimo", "logo": "https://img.zerozero.pt/clubs/logos/maritimo.png" },
+    { "nome": "Nacional", "logo": "https://img.zerozero.pt/clubs/logos/nacional.png" },
+    { "nome": "Câmara de Lobos", "logo": "https://img.zerozero.pt/clubs/logos/camara-lobos.png" },
+    { "nome": "Desportivo Aves", "logo": "https://img.zerozero.pt/clubs/logos/desportivo-aves.png" },
+    { "nome": "Porto Santo", "logo": "https://img.zerozero.pt/clubs/logos/porto-santo.png" },
+    { "nome": "São Gonçalo", "logo": "https://img.zerozero.pt/clubs/logos/sao-goncalo.png" }
+  ],
+  "AF Horta": [
+    { "nome": "Atlético Pereira", "logo": "https://img.zerozero.pt/clubs/logos/atletico-pereira.png" },
+    { "nome": "Castelnovo", "logo": "https://img.zerozero.pt/clubs/logos/castelnovo.png" },
+    { "nome": "Faialense", "logo": "https://img.zerozero.pt/clubs/logos/faialense.png" },
+    { "nome": "Lajense", "logo": "https://img.zerozero.pt/clubs/logos/lajense.png" },
+    { "nome": "Praia", "logo": "https://img.zerozero.pt/clubs/logos/praia.png" }
+  ],
+  "AF Ponta Delgada": [
+    { "nome": "Desportivo Aves", "logo": "https://img.zerozero.pt/clubs/logos/desportivo-aves.png" },
+    { "nome": "Santa Clara", "logo": "https://img.zerozero.pt/clubs/logos/santa-clara.png" },
+    { "nome": "Maia", "logo": "https://img.zerozero.pt/clubs/logos/maia-acores.png" },
+    { "nome": "Nogueira", "logo": "https://img.zerozero.pt/clubs/logos/nogueira.png" },
+    { "nome": "Porto de Mós", "logo": "https://img.zerozero.pt/clubs/logos/porto-mos.png" },
+    { "nome": "Vitória Praia", "logo": "https://img.zerozero.pt/clubs/logos/vitoria-praia.png" }
+  ],
+  "AF Angra Heroísmo": [
+    { "nome": "Terceirense", "logo": "https://img.zerozero.pt/clubs/logos/terceirense.png" },
+    { "nome": "Angra", "logo": "https://img.zerozero.pt/clubs/logos/angra.png" },
+    { "nome": "Pico", "logo": "https://img.zerozero.pt/clubs/logos/pico.png" },
+    { "nome": "Graciosa", "logo": "https://img.zerozero.pt/clubs/logos/graciosa.png" },
+    { "nome": "São Jorge", "logo": "https://img.zerozero.pt/clubs/logos/sao-jorge.png" }
+  ]
+}

@@ -1,0 +1,362 @@
+/* ===== RESET ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* ===== MAPA — ocupa o ecrã todo, mas começa abaixo do header ===== */
+#map {
+  position: fixed;
+  top: 64px;         /* altura do header */
+  left: 0;
+  width: 100vw;
+  height: calc(100vh - 64px);
+  z-index: 1;
+}
+
+/* ===== SIDEBAR ===== */
+#sidebar {
+  position: fixed;
+  top: 80px;         /* abaixo do header */
+  left: 10px;
+  width: 230px;
+  z-index: 9999;
+  user-select: none;
+  max-height: calc(100vh - 90px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 4px;
+}
+
+/* Scrollbar da sidebar */
+#sidebar::-webkit-scrollbar { width: 4px; }
+#sidebar::-webkit-scrollbar-track { background: transparent; }
+#sidebar::-webkit-scrollbar-thumb { background: #4b03d1; border-radius: 4px; }
+
+/* ===== BARRAS DE PESQUISA ===== */
+#search-input,
+#place-search {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 13px;
+  border-radius: 4px;
+  border: 2px solid #4b03d1;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 14px;
+}
+
+#search-input::placeholder,
+#place-search::placeholder { color: #888; }
+
+#search-input:focus,
+#place-search:focus {
+  border-color: #7e56ff;
+  box-shadow: 0 0 8px #7e56ff;
+}
+
+/* ===== SUGESTÕES ===== */
+#suggestions,
+#place-suggestions {
+  display: none;
+  position: absolute;
+  width: calc(100% - 20px);
+  max-height: 180px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #4b03d1;
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  box-shadow: 0 2px 8px rgba(75,3,209,0.2);
+  z-index: 10000;
+  cursor: pointer;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #4b03d1 #f1f1f1;
+}
+#suggestions.active,
+#place-suggestions.active { display: block; }
+#suggestions div,
+#place-suggestions div {
+  padding: 10px 14px;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s;
+}
+#suggestions div:hover,
+#place-suggestions div:hover {
+  background-color: #f0e6ff;
+  color: #4b03d1;
+}
+#suggestions::-webkit-scrollbar,
+#place-suggestions::-webkit-scrollbar { width: 8px; }
+#suggestions::-webkit-scrollbar-thumb,
+#place-suggestions::-webkit-scrollbar-thumb { background-color: #4b03d1; border-radius: 4px; }
+
+/* ===== DROPDOWN DIVISÕES ===== */
+.dropdown { margin-bottom: 12px; }
+
+.dropbtn {
+  width: 100%;
+  background-color: #4b03d1;
+  color: white;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: left;
+  font-size: 13px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(75,3,209,0.6);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.dropbtn:hover { background-color: #360288; }
+
+.dropdown-content {
+  display: none;
+  max-height: 250px;
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  margin-top: 6px;
+  font-size: 12px;
+  padding: 6px 0;
+}
+.dropdown.active .dropdown-content { display: block; }
+
+.dropdown-content div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s, color 0.2s;
+}
+.dropdown-content div:hover { background-color: #4b03d1; color: white; }
+.dropdown-content img {
+  width: 24px; height: 24px;
+  object-fit: contain; border-radius: 50%;
+}
+.dropdown-content div img { background: white; padding: 2px; border: 1px solid #ddd; }
+.dropdown-content div[data-tipo="treino"] { background: linear-gradient(90deg, #eef4ff, #ffffff); }
+.dropdown-content div[data-tipo="treino"]::after {
+  content: "B"; margin-left: auto;
+  background: #1e90ff; color: white;
+  font-size: 11px; padding: 2px 6px;
+  border-radius: 6px; font-weight: bold;
+}
+
+/* ===== BOTÃO TODOS ===== */
+#btn-todos {
+  width: 100%;
+  background: #4b03d1;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 8px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#btn-todos:hover { background: #350286; }
+
+/* ===== BOTÃO LOCALIZAÇÃO ===== */
+#btn-localizacao {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  background: #4b03d1;
+  color: white;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(75,3,209,0.7);
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+#btn-localizacao:hover { background-color: #360288; }
+
+/* ===== MODOS DE MAPA ===== */
+#map-modes {
+  position: fixed;
+  top: 80px;         /* abaixo do header */
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#map-modes button {
+  padding: 10px 16px;
+  background: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-weight: bold;
+  color: #4b03d1;
+  font-size: 13px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+#map-modes button:hover { background-color: #4b03d1; color: white; }
+#map-modes button.active {
+  background-color: #360288; color: white;
+  box-shadow: 0 0 12px #360288;
+}
+
+/* ===== ZOOM ===== */
+.leaflet-control-zoom {
+  box-shadow: 0 3px 7px rgba(0,0,0,0.3) !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+.leaflet-control-zoom a {
+  font-size: 20px !important;
+  width: 36px !important;
+  height: 36px !important;
+  line-height: 36px !important;
+}
+
+/* ===== MARCADORES ===== */
+.club-marker {
+  border-radius: 50%;
+  background: white;
+  border: 2px solid #4b03d1;
+  box-shadow: 0 0 8px rgba(75,3,209,0.6);
+}
+.club-marker.treino {
+  border: 3px solid #1e90ff;
+  box-shadow: 0 0 12px rgba(30,144,255,0.9);
+}
+.leaflet-marker-icon.club-marker:hover {
+  transform: scale(1.15);
+  transition: transform 0.2s ease;
+}
+.club-div-icon .club-circle {
+  width: 50px; height: 50px; border-radius: 50%;
+  background: rgba(75,3,209,0.2);
+  display: flex; align-items: center; justify-content: center;
+  border: 2px solid #4b03d1;
+  box-shadow: 0 0 8px rgba(75,3,209,0.6);
+}
+.club-div-icon .club-circle img { width: 36px; height: 36px; border-radius: 50%; }
+
+/* ===== MARCADOR LOCALIZAÇÃO ===== */
+.purple-marker {
+  width: 24px; height: 24px;
+  background: purple; border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 10px 3px purple;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0%   { box-shadow: 0 0 5px 3px purple; }
+  50%  { box-shadow: 0 0 15px 8px purple; }
+  100% { box-shadow: 0 0 5px 3px purple; }
+}
+
+/* ===== POPUPS ===== */
+.leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  border: 2px solid #4b03d1;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.35);
+}
+.leaflet-popup-content {
+  font-size: 14px; line-height: 1.6;
+  font-family: Arial, sans-serif;
+}
+.leaflet-popup-content strong { color: #4b03d1; font-size: 15px; }
+.leaflet-popup-tip { background: #4b03d1; }
+
+/* ===== LOADING ===== */
+#loading-overlay {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  display: none;
+  flex-direction: column; align-items: center; justify-content: center;
+  z-index: 100000;
+}
+.spinner {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #4b03d1;
+  border-radius: 50%; width: 50px; height: 50px;
+  animation: spin 1s linear infinite; margin-bottom: 15px;
+}
+@keyframes spin { 0%{transform:rotate(0deg)} 100%{transform:rotate(360deg)} }
+.loading-text { color: white; font-size: 18px; font-weight: bold; }
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 768px) {
+  #sidebar { width: 200px; }
+  .dropbtn { font-size: 12px; padding: 10px; }
+  #map-modes button { font-size: 12px; padding: 8px 12px; }
+}
+
+/* ===== OVERRIDE DO STYLE.CSS GLOBAL ===== */
+/* O style.css tem "button { background: white; color: black }"
+   que sobrepõe todos os botões — corrigimos aqui */
+
+#sidebar .dropbtn,
+#sidebar #btn-todos,
+#btn-localizacao {
+  background: #4b03d1 !important;
+  color: white !important;
+  animation: none !important;
+  box-shadow: 0 2px 6px rgba(75,3,209,0.6) !important;
+}
+
+#sidebar .dropbtn:hover,
+#sidebar #btn-todos:hover,
+#btn-localizacao:hover {
+  background: #360288 !important;
+  transform: none !important;
+}
+
+#map-modes button {
+  background: white !important;
+  color: #4b03d1 !important;
+  animation: none !important;
+}
+
+#map-modes button:hover {
+  background: #4b03d1 !important;
+  color: white !important;
+  transform: none !important;
+}
+
+#map-modes button.active {
+  background: #360288 !important;
+  color: white !important;
+}
+
+/* Remover animação "breathe" do style.css em todos os botões do mapa */
+#sidebar button,
+#btn-localizacao,
+#map-modes button {
+  animation: none !important;
+}
